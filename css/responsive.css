@@ -189,6 +189,9 @@ Version: 1.0
         margin-bottom: 20px;
     }
     /* Our Motto Area */
+    .icon-box i {
+        font-size: 40px;
+    }
     .img-icon-box {
         margin-bottom: 30px;
     }
@@ -254,7 +257,6 @@ Version: 1.0
         float: none;
         margin: 15px 0px;
     }
-    
 }
 
 

@@ -29,7 +29,7 @@ Table of Contents
 14. Hero Area
 15. Our Motto Area
 16. Services
-17. Counter Area 
+17. Counter Area
 18. Keyword Research
 19. Hire Us
 20. Pricing Table
@@ -66,7 +66,7 @@ body {
 }
 article,
 aside,
-details,
+details,icon-b
 figcaption,
 figure,
 footer,
@@ -317,6 +317,7 @@ cite,
 em,
 i {
     font-style: italic;
+    color: #29AAE2;
 }
 
 address {
@@ -921,11 +922,11 @@ p a:visited {
     opacity: 0.6;
     outline: 0;
 }
-.header-area .navbar-default .navbar-nav>.active>a, 
-.header-area .navbar-default .navbar-nav>.active>a:focus, 
+.header-area .navbar-default .navbar-nav>.active>a,
+.header-area .navbar-default .navbar-nav>.active>a:focus,
 .header-area .navbar-default .navbar-nav>.active>a:hover,
-.header-area .navbar-default .navbar-nav>.open>a, 
-.header-area .navbar-default .navbar-nav>.open>a:focus, 
+.header-area .navbar-default .navbar-nav>.open>a,
+.header-area .navbar-default .navbar-nav>.open>a:focus,
 .header-area .navbar-default .navbar-nav>.open>a:hover {
     color: #fff;
     opacity: 0.6;
@@ -978,7 +979,7 @@ p a:visited {
     height: 100vh;
     position: relative;
     z-index: 0;
-    background: #29aae2; 
+    background: #29aae2;
     overflow: hidden;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1054,6 +1055,9 @@ p a:visited {
 .our-motto {
     background: #fff;
     padding: 50px;
+}
+.icon-box i {
+    font-size: 60px;
 }
 .img-icon-box {
     /*background: #f2f2f2;*/
@@ -1209,7 +1213,7 @@ p a:visited {
     left: 0px;
     line-height: 47px;
 }
-.theme-collapse .panel-group .panel-heading+.panel-collapse>.list-group, 
+.theme-collapse .panel-group .panel-heading+.panel-collapse>.list-group,
 .theme-collapse .panel-group .panel-heading+.panel-collapse>.panel-body {
     border-top: 0px;
     font-size: 14px;
@@ -1224,7 +1228,7 @@ p a:visited {
     position: relative;
     z-index: 0;
     background: #29aae2;
-    color: #fff;  
+    color: #fff;
 }
 .hireus-area .title {
     color: #fff;
@@ -1308,16 +1312,16 @@ p a:visited {
      background-color: #4caf50 !important;
      color: #fff;
 }
- 
+
 .price-blue{
      background-color: #a100b5 !important;
      color: #fff;
 }
- 
+
 .price-table-2 [class*='col-md-'],
 .price-table-3 [class*='col-md-']{
   padding: 0px;
-} 
+}
 .price-table-3 .price-table{
   margin: 60px auto;
   padding: 0px 0px 20px;
@@ -1512,7 +1516,7 @@ blockquote small{
      border-radius: 0;
      transition: 0.6s;
  }
- 
+
  .blog .card.card-blog:hover {
      -webkit-box-shadow: 0px 0px 40px 0px rgb(53, 62, 162);
      box-shadow: 0px 0px 40px 0px rgb(53, 62, 162);
@@ -1557,27 +1561,27 @@ blockquote small{
 .card-description a{
   color: red;
 }
- 
+
  .blog-tags {
      padding-top: 14px;
  }
- 
+
  .blog-meta {
      margin: 10px 0px;
      font-style: italic;
  }
- 
+
  .post-thumbnail {
      margin: 18px 0px 0px;
  }
- 
+
  .card-profile,
  .card-testimonial {
      background-color: transparent;
      box-shadow: none;
      padding: 15px;
  }
- 
+
  .media .avatar {
      margin: 0 auto;
      width: 64px;
@@ -1587,68 +1591,68 @@ blockquote small{
      margin-right: 15px;
      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
  }
- 
+
  .single-post-profile .card-avatar {
      margin: 0px auto 0;
  }
- 
+
  .post-author img {
      display: inline-block;
      max-width: 80px;
      margin-bottom: 15px;
  }
- 
+
  .post-author a {
      color: #fff;
      font-weight: 600;
  }
- 
+
  .post-author a:hover {
      text-decoration: none;
  }
- 
+
  .media .media-heading small {
      font-family: "Helvetica", "Arial", 'Open Sans', sans-serif;
  }
- 
+
  .media .media-body {
      padding-right: 10px;
      padding-bottom: 20px;
  }
- 
+
  .media .media-body .media .media-body {
      padding-right: 0px;
  }
- 
- 
+
+
  .media .media-footer:after {
      display: table;
      content: " ";
      clear: both;
  }
- 
+
  a.blog-title {
      font-size: 2.4rem;
  }
- 
+
  a.blog-title:hover {
      text-decoration: none;
  }
- 
+
  .blog .card .header {
      margin: 6px;
      padding: 15px 0;
  }
- 
+
  .blog .card {
      border-radius: 0;
  }
- 
+
  .blog .card-nav-tabs .header,
  .blog .card .header {
      margin-top: -20px;
  }
- 
+
  .nav-tabs > li > a {
      text-transform: none;
      border: 0;
@@ -1657,18 +1661,18 @@ blockquote small{
      line-height: 12px;
      font-size: 16px;
  }
- 
+
  .media p {
      color: #262626;
      font-size: 16px;
      line-height: 1.6em;
  }
- 
+
  .media-left,
  .media > .pull-left {
      padding: 10px;
  }
- 
+
  .blog-title {
      font-size: 2.4rem;
  }
@@ -1714,7 +1718,7 @@ blockquote small{
     position: relative;
     z-index: 0;
     background: #29aae2;
-    color: #fff;  
+    color: #fff;
 }
 .newsletter-area .title {
     color: #fff;
@@ -2506,7 +2510,7 @@ a.btn-default-line-round:visited {
     content: "";
     background-color: rgba(0, 0, 0, 0.4);
 }
-.page-header .container, 
+.page-header .container,
 .single-page-header .container {
     padding-top: 130px;
     color: #FFFFFF;
@@ -2562,8 +2566,8 @@ a.btn-default-line-round:visited {
     color: #fff !important;
     box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12);
 }
-.social-btn:focus, 
-.social-btn:active, 
+.social-btn:focus,
+.social-btn:active,
 .social-btn:hover{
     box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2);
 }
