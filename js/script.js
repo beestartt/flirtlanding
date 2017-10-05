@@ -154,15 +154,15 @@ $(window).load(function () {
             responsiveClass: true,
             nav: false,
             navText: ["<i class='fa fa-angle-left'></i> ", "<i class='fa fa-angle-right'></i>"],
-            items: 3,
+            items: 1,
             smartSpeed: 2000,
             addClassActive: true,
             dots: true,
             autoplay: true,
             center: true,
             autoplayTimeout: 5000,
-            mouseDrag: true,
-            touchDrag: true,
+            mouseDrag: false,
+            touchDrag: false,
             pullDrag: false,
             responsive: {
                 0: {
@@ -172,7 +172,7 @@ $(window).load(function () {
                     items: 1
                 },
                 992: {
-                    items: 3
+                    items: 1
                 }
             }
         });
