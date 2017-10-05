@@ -182,6 +182,9 @@ $(window).load(function () {
     // 11. Ajax Contact Form
     $('.cf-msg').hide();
     $('form#cf button#submit').on('click', function () {
+
+        $('.cf-msg').fadeOut();
+
         var fname = $('#fname').val();
         var subject = $('#subject').val();
         var email = $('#email').val();
@@ -190,11 +193,11 @@ $(window).load(function () {
         var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
         if (!regex.test(email)) {
-            alert('Please enter valid email');
+            alert('Informe um e-mail válido!');
             return false;
         }
 
-        fname = $.trim(fname);
+        /*fname = $.trim(fname);
         subject = $.trim(subject);
         email = $.trim(email);
         website = $.trim(website);
@@ -219,10 +222,12 @@ $(window).load(function () {
                     }, 4000);
                 }
             });
-        } else {
-            $('.cf-msg').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Please fillup the informations correctly.</div>')
+        }*/
+        if (fname == '' || email == '' || msg == '') {
+            $('.cf-msg').fadeIn().html('<div class="alert alert-danger"><strong>Atenção!</strong> Por favor informe todos os dados corretamente.</div>');
+            return false;
         }
-        return false;
+
     });
     // 12. blog-carousel
     $("#blog #blog-carousel").owlCarousel({
